@@ -1,0 +1,220 @@
+{
+	"intents": [
+		{
+			"tag":"greeting",
+			"patterns":[
+				"Hi there",
+				"How are you",
+				"Is anyone there?",
+				"Hey",
+				"Hola",
+				"Hello",
+				"Good day",
+				"Namaste",
+				"Yo"
+			],
+			"responses":[
+				"Hello",
+				"Good to see you again",
+				"Hi there, how can i help?"
+			],
+			"context":[
+				""
+			]
+		},
+		{
+			"tag":"goodbye",
+			"patterns":[
+				"bye",
+				"see you later",
+				"Goodbye",
+				"get lost",
+				"till next time",
+				"bbye"
+			],
+			"responses":[
+				"see you",
+				"Have a nice day",
+				"Bye! come back again soon"
+			],
+			"context":[
+				""
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns":[
+				"thanks",
+				"thank you",
+				"that's helpful",
+				"Awesome,thanks",
+				"thanks for helping me"
+			],
+			"responses":[
+				"Happy to help!",
+				"Anytime!",
+				"My Pleasure"
+			],
+			"context":[
+				""
+			]
+		},
+		{
+			"tag":"noanswer",
+			"patterns":[],
+			"responses":[
+				"Sorry, can't understand you",
+				"Please give me more info",
+				"I am not sure I understand this"
+			],
+			"context":[
+				""
+			]
+		},{
+			"tag":"jokes",
+			"patterns":[
+				"tell me a joke",
+				"joke",
+				"make me laugh"
+			],
+			"responses":[
+				"Why was the math book sad? It had too many problems.",
+				"Why don't scientists trust atoms? Because they make up everything!",
+				"Why don’t skeletons fight each other? They don’t have the guts.",
+				"Why did the scarecrow win an award? Because he was outstanding in his field!",
+				"What’s orange and sounds like a parrot? A carrot!"
+			],
+			"context":[
+				"jokes"
+			]
+		},
+		{
+			"tag":"Identity",
+			"patterns":[
+				"Who are you?",
+				"What are you?"
+			],
+			"responses":[
+				"I am Neo, a Deep Learning based Virtual PC Assistant"
+			]
+		},
+		{
+			"tag":"datetime",
+			"patterns":[
+				"What is the time?",
+				"What is the date?",
+				"date",
+				"time",
+				"tell me the date",
+				"day",
+				"What day is it today?"
+			],
+			"responses":[
+				"Date and Time"
+			]
+		},
+		{
+			"tag":"whatsup",
+			"patterns":[
+				"What's up",
+				"Wazzup",
+				"How are you?",
+				"Sup",
+				"How you doing?"
+			],
+			"responses":[
+				"All good, what about you?"
+			]
+		},
+		{
+			"tag":"haha",
+			"patterns":[
+				"haha",
+				"lol",
+				"rofl",
+				"lmao",
+				"that's funny"
+			],
+			"responses":[
+				"Glad I coul make you laugh!"
+			]
+		},
+		{
+			"tag":"programmer",
+			"patterns":[
+				"who made you?",
+				"who designed you?",
+				"who programmed you?"
+			],
+			"responses":[
+				"I was made by the collective effort of Saksham,Arpit and Esha"
+			]
+		},
+		{
+			"tag":"insult",
+			"patterns":[
+				"you are dumb",
+				"shut up",
+				"idiot"
+			],
+			"responses":[
+				"Well, that's your opinion"
+			]
+		},
+		{
+			"tag":"activity",
+			"patterns":[
+				"what are you doing?",
+				"What are you upyo?"
+			],
+			"responses":[
+				"Trying to serve you,master"
+			]
+		},
+		{
+			"tag":"exclaim",
+			"patterns":[
+				"awesome",
+				"great",
+				"I know",
+				"ok",
+				"yeah"
+			],
+			"responses":[
+				"yeah!"
+			]
+		},
+		{
+			"tag":"appreciate",
+			"patterns":[
+				"you are awesome",
+				"you are the best",
+				"you are great",
+				"you are good"
+			],
+			"responses":[
+				"Thank you!"
+			]
+		},
+		{
+			"tag":"nicetty",
+			"patterns":[
+				"it was nice talking to you",
+				"good talk"
+			],
+			"responses":[
+				"It was nice talking to you as well! Come back soon!"
+			]
+		},
+		{
+			"tag":"no",
+			"patterns":[
+				"no",
+				"nope"
+			],
+			"responses":[
+				"Oh I see"
+			]
+		}
+	]
+}
